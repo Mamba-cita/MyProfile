@@ -6,7 +6,19 @@
 }
 
 body {
-  background-color: aqua;
+  background-color: beige;
+  height: 100vh;
+  max-width: 100%;
+}
+
+.App {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   height: 100vh;
   max-width: 100%;
 }
