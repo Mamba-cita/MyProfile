@@ -4,10 +4,16 @@
   box-sizing: border-box;
 }
 
+body {
+  max-height: 100vh;
+  overflow-y: hidden;
+  max-width: 100vw;
+}
 .Main_container {
   height: 100vh;
-  width: 250px;
+  width: 200px;
   background-color: rgb(44, 49, 65);
+  overflow: hidden;
 
   .profile_title {
     color: aqua;
@@ -25,9 +31,8 @@
     .row {
       margin-top: 15px;
       width: 100%;
-      height: 50px;
+      height: 30px;
       list-style-type: none;
-
       display: flex;
       flex-direction: row;
       justify-content: center;
@@ -77,24 +82,22 @@
   height: 20px;
   display: grid;
   place-items: center;
-
-
-  }
-  .medial_links {
-    background: orange;
-    color: #575757;
-    text-align: center;
-    height: 2.0em;
-    width: 3em;
-    line-height: 2.5em;
-    border-bottom: 1px solid #060606;
-    position: relative;
-    display: block;
-    text-decoration: none;
-    box-shadow: -2em 1.5em 0 #b83b5e25;
-    transition: all 0.25s linear;
-    transform: rotate(-23deg) skew(40deg, 2deg);
-  }
+}
+.medial_links {
+  background: orange;
+  color: #575757;
+  text-align: center;
+  height: 2em;
+  width: 3em;
+  line-height: 2.5em;
+  border-bottom: 1px solid #060606;
+  position: relative;
+  display: block;
+  text-decoration: none;
+  box-shadow: -2em 1.5em 0 #b83b5e25;
+  transition: all 0.25s linear;
+  transform: rotate(-23deg) skew(40deg, 2deg);
+}
 
 .medial_links:hover {
   background: #666;
@@ -137,15 +140,10 @@
               top: 0.25em;
               left: -0.5em;
               transform: skewY(-45deg);
-
-              
             }
           }
         }
       }
     }
   }
-
-    
-  }
-
+}
