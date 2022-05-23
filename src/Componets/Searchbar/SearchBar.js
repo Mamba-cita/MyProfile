@@ -1,10 +1,24 @@
-import React from 'react'
+import React from "react";
+import "./Search.scss";
+import SearchIcon from "@mui/icons-material/Search";
+import { SearchTestData } from "./SearchTestData";
 
-export default function SearchBar() {
+export default function SearchBar({ placeholder, data }) {
   return (
-    <div>
-        <input type="text" placeholder="Search....." className="search_bar"/>
-    </div>
-  )
-}
+    <>
+      <div className="GlobalSearch">
+        <div className="searchInputs">
+          <input type="text" placeholder={placeholder} className="searcharea" />
 
+          <div className="SearchIcon">
+            <SearchIcon />
+          </div>
+        </div>
+
+        <div className="searchResult">
+
+        </div>
+      </div>
+    </>
+  );
+}
