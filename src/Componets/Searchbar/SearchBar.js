@@ -1,7 +1,7 @@
 import React from "react";
 import "./Search.scss";
 import SearchIcon from "@mui/icons-material/Search";
-import { SearchTestData } from "./SearchTestData";
+//import { SearchTestData } from "./SearchTestData";
 
 export default function SearchBar({ placeholder, data }) {
   return (
@@ -15,9 +15,7 @@ export default function SearchBar({ placeholder, data }) {
           </div>
         </div>
 
-        <div className="searchResult">
-
-        </div>
+        <div className="searchResult"></div>
       </div>
     </>
   );

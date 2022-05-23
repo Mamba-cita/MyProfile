@@ -11,7 +11,7 @@ function App() {
     <>
 <div className='App'>
 <SidebarNav />
-<SearchBar placeholder="Search data..." data={SearchTestData}/>
+<SearchBar placeholder="Search projects....." data={SearchTestData}/>
 
 </div>
 
