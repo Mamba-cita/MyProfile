@@ -1,11 +1,12 @@
 import React from "react";
 import { NavbarData } from "./NavbarData";
+import { SocialMediaData } from "./SocialMediaData";
 import "./Navbar.scss";
 
 export default function SidebarNav() {
   return (
     <div className="Main_container">
-    <h1 className="profile_title">Edwin John</h1>
+      <h1 className="profile_title">Edwin John</h1>
       <div className="Sidebar_container">
         <img src="./K7Gm3.png" alt="logo" className="profile_logo" />
 
@@ -31,7 +32,21 @@ export default function SidebarNav() {
         </div>
       </div>
       <div className="socialmedia_links">
-jhhhjjjjjj
+        <ul>
+          {SocialMediaData.map((item, index) => {
+            return (
+              <li
+                key={index}
+                className="medial_links"
+                onclick={() => {
+                  window.location.pathname=item.link;
+                }}
+              >
+                <div>{item.icon}</div>
+              </li>
+            );
+          })}
+        </ul>
       </div>
     </div>
   );
