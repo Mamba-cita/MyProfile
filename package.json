@@ -1,6 +1,7 @@
 {
   "name": "practice",
   "version": "0.1.0",
+  "homepage": "https://afriraising.com",
   "private": true,
   "dependencies": {
     "@babel/core": "^7.10.0",
