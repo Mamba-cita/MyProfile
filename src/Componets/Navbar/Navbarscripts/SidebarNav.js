@@ -30,6 +30,9 @@ export default function SidebarNav() {
           </ul>
         </div>
       </div>
+      <div className="socialmedia_links">
+jhhhjjjjjj
+      </div>
     </div>
   );
 }
