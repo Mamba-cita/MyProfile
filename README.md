@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+# My profile
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was created using React
 
 ## Available Scripts
-
-In the project directory, you can run:
+Using npm in the project
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+My side bar 
+![image](https://user-images.githubusercontent.com/94281852/169780616-8995b256-5111-4fae-90ec-4156902f32b8.png)
 
-### `npm test`
+using  onclick event for the links to direct user to the link parth
+![image](https://user-images.githubusercontent.com/94281852/169780985-232a5e4a-4af3-482d-98f6-676e86c9a7ec.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Also used the id{windows.location.pathname==item.link ? "Active" : ""} to keep the hover background color on the current page the user is viewing 
+![image](https://user-images.githubusercontent.com/94281852/169781871-b899abd0-8b6d-4c8c-8b23-a4e3913e31bf.png)
 
-### `npm run build`
+using scss #Active to keep the styling effects 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Data for the Navbar has been maped from the NavbarData.js to keep the SidebarNav code short and understandable 
+![image](https://user-images.githubusercontent.com/94281852/169782509-1b5af4b8-34a8-4095-a65b-2f045589d73c.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Used icons from Material UI - MUI
+https://mui.com/material-ui/material-icons/
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+imported them to the NavbarData.js 
+![image](https://user-images.githubusercontent.com/94281852/169782874-9ec230dc-8cce-4c82-84cb-e2619f65d40a.png)
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
