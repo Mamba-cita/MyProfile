@@ -31,3 +31,7 @@ https://mui.com/material-ui/material-icons/
 
 ###Added the Social media icons
 ![image](https://user-images.githubusercontent.com/94281852/169811386-c1eb7886-b381-4707-b8e9-49be48d6b914.png)
+
+#### Added a Global searchbar that will run in all the pages.
+![image](https://user-images.githubusercontent.com/94281852/169886723-43f85872-3fc4-4358-8d41-a745e3c2004b.png)
+
