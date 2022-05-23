@@ -1,0 +1,77 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.Main_container {
+  height: 100vh;
+  width: 250px;
+  background-color: rgb(44, 49, 65);
+
+  .profile_title{
+    color: aqua;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 30px;
+  }
+
+  .Sidebar_nav {
+    height: auto;
+    width: 250px;
+    padding: 0%;
+
+    .row {
+
+      margin-top: 15px;
+      width: 100%;
+      height: 50px;
+      list-style-type: none;
+      
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+      color: white;
+
+      #icon {
+        flex: 30%;
+        display: grid;
+        place-items: center;
+      }
+      #text {
+        flex: 70%;
+      }
+
+      &:hover {
+        cursor: pointer;
+        background-color: aqua;
+        color: black;
+      }
+    }
+    .Nav_ul #Active {
+      background-color: aqua;
+      color: blue;
+    }
+  }
+}
+
+.profile_logo{
+
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-top: 40px;
+  margin-left: 40px;
+  border: 2px solid white;
+  
+
+  &:hover{
+    cursor: pointer;
+   transform: scale(1.1);
+  }
+
+}
