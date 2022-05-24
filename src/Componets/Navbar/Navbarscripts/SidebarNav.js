@@ -42,7 +42,7 @@ export default function SidebarNav() {
                   window.location.pathname=item.link;
                 }}
               >
-                <div>{item.icon}</div>
+                <a className="item" href={item.link}>{item.icon}</a>
               </li>
             );
           })}
