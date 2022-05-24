@@ -9,27 +9,27 @@ export const SocialMediaData = [
   {
     name: "Facebook",
     icon: <FacebookIcon />,
-    link: "https://www.facebook.com/edwin.john.7",
+    link: "https://www.facebook.com/Africannet/",
     color: "#3b5998",
   },
   {
     name: "Instagram",
     icon: <InstagramIcon />,
-    link: "https://www.instagram.com/edwinjohn_/",
+    link: "https://www.instagram.com/edwins_john/",
     color: "#e1306c",
   },
 
   {
     name: "Twitter",
     icon: <TwitterIcon />,
-    link: "https://twitter.com/edwinjohn_",
+    link: "https://twitter.com/AfriRaising",
     color: "#1da1f2",
   },
 
   {
     name: "Linkedin",
     icon: <LinkedInIcon />,
-    link: "https://www.linkedin.com/in/edwin-john-a-b8a8b5a6/",
+    link: "https://www.linkedin.com/in/john-edwins-a965831a6/",
     color: "#0077b5",
   },
   {
@@ -41,7 +41,7 @@ export const SocialMediaData = [
   {
     name: "youtube",
     icon: <YouTubeIcon />,
-    link: "https://www.youtube.com/channel/UC-lHJZR3Gqxm24_Vd_AJ5Yw",
+    link: "https://www.youtube.com/channel/UCPlavuI6TsWGmFfLyvJNZ-Q",
     color: "#ff0000",
   },
-];
+]
